@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sederhana</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffcccc; /* Warna latar merah muda */
+        }
+        header {
+            background-color: #ff0000; /* Warna merah */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #cc0000; /* Warna merah lebih gelap */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #cc0000; /* Warna merah lebih gelap */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .photo {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .photo img {
+            max-width: 200px;
+            border: 2px solid #cc0000;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #cc0000;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .tutorial {
+            margin: 20px 0;
+        }
+        .tutorial a {
+            color: #cc0000;
+            text-decoration: none;
+        }
+        .tutorial a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tutorial Hosting Web</h1>
+    </header>
+
+    <main>
+        <section id="identitas">
+            <h2>Identitas Pembuat</h2>
+            <p><strong>NIM:</strong> 607012400034</p>
+            <p><strong>Nama:</strong> Ali Nur Hakim</p>
+            <p><strong>Kelas:</strong> D3SI-48-02</p>
+        </section>
+
+        <section id="photo" class="photo">
+            <h2>Photo Mahasiswa</h2>
+            <img src="Poto profil.jpg" alt="Photo Mahasiswa">
+        </section>
+
+        <section id="mata-kuliah">
+            <h2>Mata Kuliah: Jaringan Komputer</h2>
+            <p>Pemrograman Web</p>
+        </section>
+
+        <section id="perangkat">
+            <h2>Pembahasan Perangkat Jaringan</h2>
+            <table>
+                <tr>
+                    <th>Nama Alat</th>
+                    <th>Gambar</th>
+                    <th>Fungsi</th>
+                    <th>Jenis</th>
+                </tr>
+                <tr>
+                    <td>Router</td>
+                    <td><img src="router.jpg" alt="Gambar Router" style="max-width: 100px;"></td>
+                    <td>Menghubungkan jaringan</td>
+                    <td>Perangkat Akhir</td>
+                </tr>
+            </table>
+            <p>Sumber: Internet</p>
+        </section>
+
+        <section id="tutorial" class="tutorial">
+            <h2>Lampiran File Tutorial</h2>
+            <p>Unduh file tutorial di sini: <a href="tutorial.pdf" download>Download Tutorial</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ali Nur Hakim_D3SI-48-02</p>
+    </footer>
+</body>
+</html>
